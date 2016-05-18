@@ -27,7 +27,18 @@
 </a>
     </div>
 
+
+
      <ul class="nav navbar-nav navbar-right">
+
+      
+<div class="navbar-form navbar-right" role="search">
+                <%= form_tag("/products", method: "get") do %>
+              <%= label_tag(:q, "Search for:") %>
+              <%= text_field_tag(:q) %>
+              <%= submit_tag("Search") %>
+            <% end %></div>
+            
         <li><a href="/products">Products</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">What We Do <span class="caret"></span></a>
@@ -37,6 +48,7 @@
             <li role="separator" class="divider"></li>
             <li><a href="#">Races</a></li>
           </ul>
+            
           <li><a href="/contact">Contact Us</a></li>
         </li>
         
