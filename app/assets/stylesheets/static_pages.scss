@@ -1,3 +1,139 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+	text-transform: uppercase;
+}
+
+h1, h2 {
+	font-family: helvetica;
+	letter-spacing: 2px;
+	text-align:center;
+}
+
+p {
+	font-family: helvetica;
+}
+
+
+.navbar li {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.navbar {
+	background-color: #D3D3D3;
+	border-bottom: #000 2px solid;
+  padding-top: 2px;
+}
+
+.navbar a {
+	color: #000;
+}
+
+.navbar-right {
+  margin-right:5px;
+}
+
+.navbar-form {
+  margin-top:12px;
+  margin-bottom:0;
+  font-family: helvetica;
+}
+
+.navbar button {
+	color: #fff;
+	background-color: #000;
+	margin-right:10px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size:13px;
+}
+
+
+body {
+  margin-bottom:50px;
+}
+
+
+.signup {
+  text-align: center;
+  vertical-align: middle;
+  border-color: #000;
+  border-width: 5px;
+  border-style: dotted;
+  margin-top: 15%;
+  margin-bottom: 25%;
+  background-color: #000;
+  color: #fff;
+  margin-left: 25%;
+  padding: 50px;
+
+}
+
+/* footer styles */ 
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  position: fixed;
+  height: 40px;
+  background-color: #999999;
+}
+footer ul.footerleft{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+footer ul.footerleft li{
+    display: inline;
+    margin-right: 25px;
+}
+footer a{
+    color: #222;
+}
+
+footer a:hover{
+    color: #ffffff;
+    text-decoration: none;    
+}
+
+footer img {
+	height: 40px;
+	margin-bottom: 20px;
+	margin-top:5px;
+	filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+
+footer img:hover {
+filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+
+
+.social:hover {
+     -webkit-transform: scale(1.0);
+     -webkit-transition-duration: 0.5s;
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     color: #222;
+     
+ }
+
+footer ul.footerright{
+        margin-right: 150px;
+        margin-top: 10px;
+    }
+    footer ul.footerright li{
+        display: inline;
+        margin-right: 25px;
+    }
+
+
+
+
