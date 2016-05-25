@@ -6,4 +6,9 @@ class Ability
     can :manage, User, id: user.id
   end
 
+  def initialize(user)
+    user ||= admin # admin
+    can [:update, :destroy] [Product, Comment]
+  end
+
 end
