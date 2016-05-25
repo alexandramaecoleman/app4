@@ -1,7 +1,4 @@
 class Order < ActiveRecord::Base
-  belongs_to :product
-end
-
-class Product < ActiveRecord::Base
-  has_many :orders
+    belongs_to :product
+    belongs_to :user
 end
