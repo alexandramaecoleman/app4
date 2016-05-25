@@ -4,9 +4,14 @@ h2 {
 	letter-spacing: 0.07em;
 }
 
-p {
+h3 {
 	color: #696969;
 	text-transform: uppercase;
+	letter-spacing: 0.07em;
+}
+
+p {
+	color: #696969;
 	letter-spacing: 0.07em;
 }
 
@@ -29,5 +34,14 @@ p {
 }
 
 .prodbutton button {
-	margin-top:5px;
+	margin-top:20px;
+  margin-bottom:30px;
+}
+
+button {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
