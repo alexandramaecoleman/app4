@@ -1,29 +1,46 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @product.name %>
-</p>
+<div class="showproduct">
+  <div class="row">
+    <div class="col-sm-12 col-md-12">
 
-<p>
-  <strong>Description:</strong>
-  <%= @product.description %>
-</p>
+        <h2>
+          <strong>Name:</strong>
+          <%= @product.name %>
+        </h2>
 
-<p>
-  <strong>Color:</strong>
-  <%= @product.color %>
-</p>
+          <p>
+            <strong>Description:</strong>
+            <%= @product.description %>
+          </p>
 
-<p>
-  <strong>Price:</strong>
-  <%= @product.price %>
-</p>
+          <p>
+            <strong>Color:</strong>
+            <%= @product.color %>
+          </p>
 
-<p>
-  <strong>Image url:</strong>
-  <%= @product.image_url %>
-</p>
+          <p>
+            <strong>Price:</strong>
+            <%= @product.price %>
+          </p>
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+          <p>
+            <strong>Image url:</strong>
+            <%= @product.image_url %>
+          </p>
+
+              <div class="col-xs-12 col-sm-12 col-md-12 parent">
+                <%= link_to(image_tag(@product.image_url))%>
+              </div>
+
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="prodbutton">
+                  <button><%= link_to 'Edit Product', edit_product_path(@product) %> </button>
+                  <br>
+                  <button><%= link_to 'Back to Products Listing', products_path %></button>
+                </div>
+              </div>
+
+      </div>
+    </div>
+  </div>
