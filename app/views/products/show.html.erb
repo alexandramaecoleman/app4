@@ -38,7 +38,10 @@
 
 
                   <div class="prodbutton">
+                    
+                    <% if signed_in? && current_user.admin? %>
                     <button><%= link_to 'Edit Product', edit_product_path(@product) %> </button>
+                    <% end %>
                     <button><%= link_to 'Back to Products Listing', products_path %></button>
                   </div>
                 </div>
