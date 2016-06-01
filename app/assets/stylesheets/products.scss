@@ -17,23 +17,28 @@ p {
 
 .showproduct {
 	text-align: center;
-	background-color: #D3D3D3;
 	color: #000;
 }
 
-.parent {
-  
+.proddesc {
+  background-color: #D3D3D3;
+  width: 84%;
+  margin: auto;
+  padding: 10px 0 10px 0;
+  border: #FF69B4 2px solid;
 }
+
 
 /* This will style any <img> element in .parent div */
 .parent img {
    height: 80%;
    width: 80%;
+   margin-top:20px;
+
 }
 
 .prodbutton button {
 	margin-top:20px;
-  margin-bottom:30px;
 }
 
 button {

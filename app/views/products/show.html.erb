@@ -5,7 +5,6 @@
     <div class="col-sm-12 col-md-12">
 
         <h2>
-          <strong>Name:</strong>
           <%= @product.name %>
         </h2>
 
@@ -35,13 +34,14 @@
                       <strong>Image url:</strong>
                       <%= @product.image_url %>
                     </p>
-                  </div>
+                  
 
 
                   <div class="prodbutton">
                     <button><%= link_to 'Edit Product', edit_product_path(@product) %> </button>
                     <button><%= link_to 'Back to Products Listing', products_path %></button>
                   </div>
+                </div>
                 </div>
 
               </div>
