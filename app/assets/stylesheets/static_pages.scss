@@ -24,8 +24,9 @@ p {
 
 .navbar {
 	background-color: #D3D3D3;
-	border-bottom: #000 2px solid;
-  padding-top: 2px;
+	border-bottom: #FF69B4 4px solid;
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
 .navbar a {
@@ -53,7 +54,12 @@ p {
 
 
 body {
+  margin-top:0px;
   margin-bottom:50px;
+}
+
+p {
+  margin: 0;
 }
 
 
