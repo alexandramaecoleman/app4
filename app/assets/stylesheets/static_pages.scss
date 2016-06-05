@@ -3,34 +3,34 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 h1 {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 h1, h2 {
-	font-family: helvetica;
-	letter-spacing: 2px;
-	text-align:center;
+  font-family: helvetica;
+  letter-spacing: 2px;
+  text-align:center;
 }
 
 p {
-	font-family: helvetica;
+  font-family: helvetica;
 }
 
 
 .navbar li {
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .navbar {
-	background-color: #D3D3D3;
-	border-bottom: #FF69B4 4px solid;
+  background-color: #D3D3D3;
+  border-bottom: #FF69B4 4px solid;
   margin-bottom: 0;
   border-radius: 0;
 }
 
 .navbar a {
-	color: #000;
+  color: #000;
 }
 
 .navbar-right {
@@ -44,12 +44,12 @@ p {
 }
 
 .navbar button {
-	color: #fff;
-	background-color: #000;
-	margin-right:10px;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	font-size:13px;
+  color: #fff;
+  background-color: #000;
+  margin-right:10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size:13px;
 }
 
 
@@ -83,10 +83,11 @@ p {
   vertical-align: middle;
 }
 
-.row {
+.contactrow {
   margin: auto;
   width: 50%;
 }
+
 
 /* footer styles */ 
 footer {
@@ -115,10 +116,10 @@ footer a:hover{
 }
 
 footer img {
-	height: 40px;
-	margin-bottom: 20px;
-	margin-top:5px;
-	filter: gray; /* IE6-9 */
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top:5px;
+  filter: gray; /* IE6-9 */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
