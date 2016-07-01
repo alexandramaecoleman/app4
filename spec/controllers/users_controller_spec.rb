@@ -5,9 +5,10 @@ describe UsersController, type: :controller do
   before do
     # @user = User.create!(email: "benclarke018@gmail.com", password: "testpassed123")
     # @user1 = User.create!(email: "ben@upliftingmedia.co.uk", password: "timeforatest")
-    @user = User.create!(email: "alexandramaecoleman@gmail.com", password: "alxy25")
-    @user1 = User.create!(email: "alexandramaecolema1@gmail.com", password: "alxy25")
-    @user2 = User.create!(email: "alexandramaecoleman2@gmail.com", password: "alxy25")
+    # @user = User.create!(email: "alexandramaecoleman@gmail.com", password: "alxy25")
+    # @user1 = User.create!(email: "alexandramaecolema1@gmail.com", password: "alxy25")
+    # @user2 = User.create!(email: "alexandramaecoleman2@gmail.com", password: "alxy25")
+    @user = FactoryGirl.create(:user)
   end
 
 
