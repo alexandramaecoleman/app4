@@ -12,6 +12,17 @@ h1, h2 {
   text-align:center;
 }
 
+h3 {
+  font-family: helvetica;
+  letter-spacing: 2px;
+  text-align:center;
+}
+
+.about-text {
+  width: 50%;
+  margin-left:25%;
+}
+
 p {
   font-family: helvetica;
 }
@@ -33,8 +44,17 @@ p {
   color: #000;
 }
 
+.navbar-brand {
+  font-family: "Luckiest Guy";
+  font-size: 25px;
+}
+
+.navbar-toggle {
+  color: #fff;
+}
+
 .navbar-right {
-  margin-right:5px;
+  margin-right:1px;
 }
 
 .navbar-form {
@@ -43,9 +63,13 @@ p {
   font-family: helvetica;
 }
 
+.navbar-search {
+  margin-left: 1px;
+}
+
 .navbar button {
   color: #fff;
-  background-color: #000;
+  background-color: #FF69B4;
   margin-right:10px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -81,6 +105,8 @@ p {
 .contactbox {
   text-align: center;
   vertical-align: middle;
+  font-family: helvetica;
+  text-transform: uppercase;
 }
 
 .contactrow {
