@@ -42,7 +42,7 @@ Rails.application.routes.draw do
   #     end
   #   end
 
-  resources :orders, only: [:index, :show, :create, :destroy]
+resources :orders, only: [:index, :show, :create, :destroy]
 
   # Example resource route with sub-resources:
   #   resources :products do
