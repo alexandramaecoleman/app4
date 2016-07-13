@@ -1,4 +1,7 @@
-<p id="notice"><%= notice %></p>
+<p>
+  <%= flash[:success] unless flash[:success].blank? %>
+  <%= flash[:error] unless flash[:error].blank? %>
+</p>
 
 <div class="showproduct">
   <div class="row">
