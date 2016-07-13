@@ -18,6 +18,8 @@ group :development, :test do
   gem 'guard-spork'
 end
 
+gem 'dalli'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
