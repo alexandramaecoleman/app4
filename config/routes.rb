@@ -44,6 +44,9 @@ Rails.application.routes.draw do
 
 resources :orders, only: [:index, :show, :create, :destroy]
 
+resources :payments, only: [:create]
+  post 'payments/create'
+
   # Example resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales
