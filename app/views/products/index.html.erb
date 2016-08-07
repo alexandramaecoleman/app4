@@ -8,7 +8,7 @@
   <div class="row">
 
     <% if @products .length == 0 %>
-      <h1>No products found</h1>
+      <h1>Sorry! <br>No products found</h1>
  
     <% else %>
 
@@ -20,6 +20,7 @@
         <p><%= product.description %></p>
         <p><%= product.color %></p>
          <p><%= product.price %></p>
+         </div>
 
               
              <% if signed_in? && current_user.admin? %>
