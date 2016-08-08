@@ -32,7 +32,7 @@
 
                     <p>
                       <strong>Price:</strong>
-                      <%= @product.price %>
+                      <%= number_to_currency(@product.price.to_f / 100.0) %>
                     </p>
 
                     <p>
